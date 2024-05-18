@@ -1,0 +1,13 @@
+
+Static Block execute at the time of class loading 
+Static block will excute before main method
+* It will execte automatically without calling them
+  ------------------------
+  
+ Static method execute without object creation ,,, by class name or direct method name
+ *It will NOT execute automatically , when we call it will execute
+ 
+ ------------------------------
+ Without creating object - Instance block and constructor will NOT execute
+ *It will execute after obj creation
+ preference will given to instance block over constructor
