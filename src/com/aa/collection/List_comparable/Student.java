@@ -1,4 +1,4 @@
-package com.aa.collection.List_Short;
+package com.aa.collection.List_comparable;
 
 public class Student implements Comparable<Student>{
 	
