@@ -1,4 +1,5 @@
 package com.aa.collection.List_comparator;
+import java.util.Iterator;
 import java.util.TreeSet;
 
 public class TreeSetDemo3 {
@@ -13,8 +14,12 @@ public class TreeSetDemo3 {
         treeSet.add(15);
         treeSet.add(3);
         
-        System.out.println(treeSet);
+        //System.out.println(treeSet);
 
+        Iterator<Integer> itr = treeSet.iterator();
+        	while(itr.hasNext()) {
+        		System.out.println(itr.next());
+        	}
+        }
     }
 
-}
