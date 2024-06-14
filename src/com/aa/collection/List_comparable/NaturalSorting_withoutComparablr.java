@@ -1,4 +1,4 @@
-package com.aa.collection.List_Short;
+package com.aa.collection.List_comparable;
 
 import java.util.ArrayList;
 import java.util.Collections;
