@@ -1,4 +1,4 @@
-package com.aa.Map.hashmap;
+package com.aa.Map;
 
 import java.util.HashMap;
 import java.util.Iterator;
