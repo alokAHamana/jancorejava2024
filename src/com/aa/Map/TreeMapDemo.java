@@ -20,9 +20,11 @@ public class TreeMapDemo {
 
 		while(itr.hasNext()) {
 			
-			Map.Entry<Integer, String> entry = itr.next();
+			//Map.Entry<Integer, String> entry = itr.next();
 			
-			System.out.println(entry.getKey()+" "+ entry.getValue());
+			//System.out.println(entry.getKey()+" "+ entry.getValue());
+		
+			System.out.println(itr.next());
 		}
 	}
 }

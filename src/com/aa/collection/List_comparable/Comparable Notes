@@ -1,0 +1,10 @@
+COMPARABLE
+It is used when we want to natural shorting or ascending or decending
+
+It work on only one filed like id 
+
+Comparable can only work with TreeSet and TreeMap
+
+If we want natural or custom  shorting in other collection cllass then we use
+collections utility  class method like -
+collection.sort().
